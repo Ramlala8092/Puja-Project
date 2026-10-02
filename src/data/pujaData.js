@@ -1,3 +1,6 @@
+import { lakshmiPujaSteps } from "./pujaSteps.js";
+
+
 export const pujaData = [
   {
     id: "lakshmi-puja",
@@ -54,63 +57,7 @@ export const pujaData = [
         "कलश",
       ],
     },
-    steps: [
-      {
-        title: {
-          en: "Prepare the Puja Space",
-          hi: "पूजा स्थान तैयार करें",
-        },
-        instruction: {
-          en: "Clean the puja area and place a clean cloth on the altar. Keep Lakshmi and Ganesha idols together.",
-          hi: "पूजा स्थान को साफ करके चौकी पर स्वच्छ वस्त्र बिछाएं और लक्ष्मी जी तथा गणेश जी की प्रतिमा स्थापित करें।",
-        },
-        mantra: "ॐ श्री गणेशाय नमः।",
-      },
-      {
-        title: {
-          en: "Light the Diya",
-          hi: "दीप प्रज्वलित करें",
-        },
-        instruction: {
-          en: "Light the diya and incense sticks. Sit calmly and begin the puja with a peaceful mind.",
-          hi: "दीपक और अगरबत्ती जलाएं। शांत मन से बैठकर पूजा प्रारंभ करें।",
-        },
-        mantra: "ॐ दीपज्योतिः परब्रह्म।",
-      },
-      {
-        title: {
-          en: "Invoke Ganesha",
-          hi: "गणेश जी का आवाहन",
-        },
-        instruction: {
-          en: "Offer flowers, rice and kumkum to Lord Ganesha and pray for removal of obstacles.",
-          hi: "श्री गणेश जी को फूल, अक्षत और कुमकुम अर्पित करके विघ्नों को दूर करने की प्रार्थना करें।",
-        },
-        mantra: "ॐ गं गणपतये नमः।",
-      },
-      {
-        title: {
-          en: "Lakshmi Puja",
-          hi: "मां लक्ष्मी की पूजा",
-        },
-        instruction: {
-          en: "Offer flowers, kumkum, rice, sweets and coins to Goddess Lakshmi with devotion.",
-          hi: "मां लक्ष्मी को फूल, कुमकुम, अक्षत, मिठाई और सिक्के श्रद्धापूर्वक अर्पित करें।",
-        },
-        mantra: "ॐ श्रीं महालक्ष्म्यै नमः।",
-      },
-      {
-        title: {
-          en: "Aarti & Prasad",
-          hi: "आरती और प्रसाद",
-        },
-        instruction: {
-          en: "Perform Lakshmi and Ganesha aarti and distribute the prasad among family members.",
-          hi: "लक्ष्मी-गणेश जी की आरती करें और परिवार के सभी सदस्यों को प्रसाद वितरित करें।",
-        },
-        mantra: "ॐ जय लक्ष्मी माता।",
-      },
-    ],
+    steps: lakshmiPujaSteps,
   },
 
   {
